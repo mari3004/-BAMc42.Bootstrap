@@ -18,20 +18,27 @@
     justify-content: center;
     padding-top: 10px;   
 }
-a{
-    text-decoration: none !important;
-}
 .objetos{
     display: inline;
     text-align: right;
     padding: 2px;
     width: 100%;
+    align-items: center;
+}
+.menuvar:hover{
+    text-decoration: underline;
+    background-color: white;
+}
 
+a{
+    text-decoration: none !important;
 }
-li{
-    padding: 2px;
-    display: inline;
+.botones{
+    align-items: right;
+    justify-content: right;
+    padding-right: 0px;
 }
+
 #logo {
     width: 30px;
     height: 30px;
@@ -42,6 +49,7 @@ li{
     font-size: 15px;
     font-style: bold;
     color: black;
+    align-items:right;
     
 }
 @media (max-width: 755px),(min-width: 255px) {
@@ -53,6 +61,16 @@ li{
 
 .section {
     background-color: #808080;
+    background-image: url(https://qph.cf2.quoracdn.net/main-qimg-d7fa0f11fb37da111c6a83be5868092a-lq);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0px;
+}
+.sectionlarge{
+    background-color: #808080;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     margin: 0px;
 }
@@ -69,37 +87,42 @@ h1, h2, h3, h4, h5{
     text-align: center;
 }
 
-#perfil{
-    border: 10px solid #27018D;
-    border-radius: 250px;
-    height: 300px;
-    width: 300px;
-    align-items: center;
-    text-align: center;
-}
 .title {
     color: white;
     text-align:center !important;
     align-items: right;
+    justify-content:center;
     text-decoration: none;
     font-weight: bold;
     font-family: 'Lobster', cursive;
+    margin: 0;
+    padding-top: 45px;
+    
 }
 .carousel {
     align-items: center;
+   
     
 }
 .carousel .carousel-inner .carousel-item img{
     width: 50%;
     height: 400px;
-    padding: 20px;
+    padding: 10px;
     border-radius:50px;
+}
+#image {
+    width: 350px;
+    height:150px;  
+    padding: 15px;
+    margin: auto;
+}
+#image2 {
+    width: 350px;
+    height:100px;  
+    padding: 15px;
+    margin: auto;
+}
 
-}
-img {
-    width: 500px;
-    height:550px;    
-}
 .menu{
     margin: 5px;
     padding: 10px;
@@ -185,4 +208,42 @@ a:link, a:visited, a:active {
         width: 100%;
         margin: 5px;
     }
+}
+
+a{
+    text-decoration: none !important;
+    color: white;
+}
+
+.cardc {
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 13px
+}
+
+
+.tarjeta {
+    border: 2px solid;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+}
+#agira {
+    width: 350px; 
+    height: 150px;
+}
+ul{
+    margin-left: 50px;
+    align-items: center;
+}
+
+footer {
+    background-image: url(images/fondonavbar.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 0px;
+    color: white;
+    text-align: center;
 }
